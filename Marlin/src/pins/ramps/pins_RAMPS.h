@@ -356,7 +356,7 @@
   //#define E4_HARDWARE_SERIAL Serial1
 
   #ifndef X_SERIAL_TX_PIN
-    #define X_SERIAL_TX_PIN                   40
+    #define X_SERIAL_TX_PIN                   63
   #endif
   #ifndef X_SERIAL_RX_PIN
     #define X_SERIAL_RX_PIN                   63
@@ -369,7 +369,7 @@
   #endif
 
   #ifndef Y_SERIAL_TX_PIN
-    #define Y_SERIAL_TX_PIN                   59
+    #define Y_SERIAL_TX_PIN                   64
   #endif
   #ifndef Y_SERIAL_RX_PIN
     #define Y_SERIAL_RX_PIN                   64
@@ -382,7 +382,7 @@
   #endif
 
   #ifndef Z_SERIAL_TX_PIN
-    #define Z_SERIAL_TX_PIN                   42
+    #define Z_SERIAL_TX_PIN                   65
   #endif
   #ifndef Z_SERIAL_RX_PIN
     #define Z_SERIAL_RX_PIN                   65
@@ -395,7 +395,7 @@
   #endif
 
   #ifndef E0_SERIAL_TX_PIN
-    #define E0_SERIAL_TX_PIN                  44
+    #define E0_SERIAL_TX_PIN                  66
   #endif
   #ifndef E0_SERIAL_RX_PIN
     #define E0_SERIAL_RX_PIN                  66
